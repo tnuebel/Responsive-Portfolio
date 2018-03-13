@@ -84,13 +84,22 @@ time,
 mark,
 audio,
 video {
+
+  /* Box-model */
   padding: 0;
+
+  /* Positioning */
   margin: 0;
   font: inherit;
+
+  /* Typography */
   font-size: 100%;
   vertical-align: baseline;
+
+  /* Visual */
   border: 0;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -124,11 +133,15 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
+
+  /* Misc */
   content: "";
   content: none;
 }
 
 table {
   border-spacing: 0;
+
+  /* Visual */
   border-collapse: collapse;
 }
